@@ -6,7 +6,7 @@ let imagesLoaded = 0;
 let totalImages = 0;
 
 const count = 30;
-const apiKey = process.env.API_KEY;
+const apiKey = "Xb7vJhuarM9Yv01Mt-nW4_lcqyiKi4wNKhkfa8P0Bn0";
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 const setAttribute = (element, attributes) => {
